@@ -82,6 +82,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC5A71B2198824CE00D0504D /* view Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BC88A2A519881051002A59B8 /* AVFMasterViewController.h */,
+				BC88A2A619881051002A59B8 /* AVFMasterViewController.m */,
+				BC88A2A819881051002A59B8 /* AVFDetailViewController.h */,
+				BC88A2A919881051002A59B8 /* AVFDetailViewController.m */,
+			);
+			name = "view Controllers";
+			sourceTree = "<group>";
+		};
+		BC5A71B31988251A00D0504D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC88A2AB19881051002A59B8 /* Images.xcassets */,
+				BC88A2A219881051002A59B8 /* Main.storyboard */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
 		BC88A28419881051002A59B8 = {
 			isa = PBXGroup;
 			children = (
@@ -117,12 +137,8 @@
 			children = (
 				BC88A29F19881051002A59B8 /* AVFAppDelegate.h */,
 				BC88A2A019881051002A59B8 /* AVFAppDelegate.m */,
-				BC88A2A219881051002A59B8 /* Main.storyboard */,
-				BC88A2A519881051002A59B8 /* AVFMasterViewController.h */,
-				BC88A2A619881051002A59B8 /* AVFMasterViewController.m */,
-				BC88A2A819881051002A59B8 /* AVFDetailViewController.h */,
-				BC88A2A919881051002A59B8 /* AVFDetailViewController.m */,
-				BC88A2AB19881051002A59B8 /* Images.xcassets */,
+				BC5A71B31988251A00D0504D /* resources */,
+				BC5A71B2198824CE00D0504D /* view Controllers */,
 				BC88A29719881051002A59B8 /* Supporting Files */,
 			);
 			path = ControllingSource;
@@ -463,6 +479,7 @@
 				BC88A2C419881051002A59B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC88A2C519881051002A59B8 /* Build configuration list for PBXNativeTarget "ControllingSourceTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +488,7 @@
 				BC88A2C719881051002A59B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
